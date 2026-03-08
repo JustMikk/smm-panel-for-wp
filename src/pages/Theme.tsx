@@ -17,6 +17,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { Link, NavLink } from "react-router-dom";
 
 const whyUseCards = [
   {
@@ -173,7 +174,7 @@ const Theme = () => {
 
       <header className="sticky top-0 z-40 border-b border-border/50 backdrop-blur-xl bg-background/80">
         <div className="max-w-[1200px] mx-auto px-4 py-4 flex items-center justify-between">
-          <a href="/" className="flex items-center gap-2">
+          <Link to="/" className="flex items-center gap-2">
             <div className="h-10 w-10 rounded-lg overflow-hidden bg-card border border-primary/20">
               <img
                 src="https://smmpanelwp.com/wp-content/uploads/2025/10/Copilot_20251016_150933.png"
@@ -182,11 +183,11 @@ const Theme = () => {
               />
             </div>
             <span className="font-heading font-bold text-lg">SMM Panel<span className="text-highlight"> For WP</span></span>
-          </a>
+          </Link>
 
           <nav className="flex items-center gap-6 text-xs font-semibold uppercase tracking-wider">
-            <a href="/theme" className="text-primary">Theme</a>
-            <a href="/plugin" className="text-muted-foreground hover:text-foreground transition-colors">Plugin</a>
+            <NavLink to="/theme" className="text-primary">Theme</NavLink>
+            <NavLink to="/plugin" className="text-muted-foreground hover:text-foreground transition-colors">Plugin</NavLink>
           </nav>
         </div>
       </header>
