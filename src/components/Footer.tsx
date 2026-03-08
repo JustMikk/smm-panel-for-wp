@@ -6,7 +6,7 @@ const Footer = () => (
           <div className="flex items-center gap-2 justify-center md:justify-start mb-3">
             <div className="h-9 w-9 rounded-lg overflow-hidden bg-card border border-primary/20">
               <img
-                src="https://smmpanelwp.com/wp-content/uploads/2025/10/Copilot_20251016_150933.png"
+                src="/smm panel wordpress logo.png"
                 alt="SMM Panel logo"
                 className="h-full w-full object-cover"
               />

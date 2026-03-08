@@ -177,7 +177,7 @@ const Theme = () => {
           <Link to="/" className="flex items-center gap-2">
             <div className="h-10 w-10 rounded-lg overflow-hidden bg-card border border-primary/20">
               <img
-                src="https://smmpanelwp.com/wp-content/uploads/2025/10/Copilot_20251016_150933.png"
+                src="/smm panel wordpress logo.png"
                 alt="SMM Panel logo"
                 className="h-full w-full object-cover"
               />

@@ -213,7 +213,7 @@ const Plugin = () => {
           <Link to="/" className="flex items-center gap-2">
             <div className="h-10 w-10 rounded-lg overflow-hidden bg-card border border-primary/20">
               <img
-                src="https://smmpanelwp.com/wp-content/uploads/2025/10/Copilot_20251016_150933.png"
+                src="/smm panel wordpress logo.png"
                 alt="SMM Panel logo"
                 className="h-full w-full object-cover"
               />
@@ -473,7 +473,7 @@ const Plugin = () => {
       <footer className="border-t border-border py-12 bg-card/20">
         <div className="max-w-[1200px] mx-auto px-4 text-center">
           <div className="mb-4 flex justify-center">
-            <img src="https://smmpanelwp.com/wp-content/uploads/2025/10/Copilot_20251016_150933.png" alt="SMM Panel logo" className="h-16 w-16 rounded-full" />
+            <img src="/smm panel wordpress logo.png" alt="SMM Panel logo" className="h-16 w-16 rounded-full" />
           </div>
           <h3 className="font-heading font-bold text-xl mb-6 text-primary">SMM Panel for Wordpress</h3>
           <div className="flex flex-wrap justify-center gap-4 text-sm text-muted-foreground mb-5">
